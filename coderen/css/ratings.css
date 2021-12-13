@@ -1,15 +1,18 @@
 @charset "utf-8";
 
-body {
-    background-size: cover;
-    background-image: url(https://images2.alphacoders.com/101/thumb-1920-1012090.jpg);
-    background-color: #cccccc;
-   }
+.backgroundImg {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    z-index: -1;
+    /* opacity: .75; */
+    filter: brightness(20%);
+  }
    ul{
     list-style: none;
     position: absolute;
-    left: 6px;
-    top: 2px;
+    left: 3rem;
+    top: 6px;
 }
 li{
     float: left;
@@ -22,4 +25,10 @@ li a{
     text-decoration: none;
     font-size: 26px;
     padding: 2vw;
+}
+table{
+    margin-top: 10rem;
+}
+td{
+    color: white;
 }
