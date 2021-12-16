@@ -1,11 +1,18 @@
 @charset "utf-8";
 
+body {
+    margin: 0;
+    padding: 0;
+}
+header {
+    padding-top: 10rem;
+}
+
 .backgroundImg {
-    width: 100vw;
+    width: 98vw;
     height: 100vh;
     position: absolute;
     z-index: -1;
-    /* opacity: .75; */
     filter: brightness(20%);
   }
    ul{
@@ -27,8 +34,8 @@ li a{
     padding: 2vw;
 }
 table{
-    margin-top: 10rem;
-}
+        margin-top: 10px;
+    }
 td{
     color: white;
 }
