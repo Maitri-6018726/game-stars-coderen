@@ -35,7 +35,7 @@ li a{
 }
 #review{
     font-size: 20px;
-    background-color: rgb(135, 77, 153);
+    background-color: rgba(172, 50, 209, 0.473); 
     color: white;
     text-decoration: none;
     position: relative;
@@ -47,14 +47,14 @@ p{
     color: white;
 }
 table{
-    background-color: rgb(89, 30, 107); 
+    background-color: rgba(95, 95, 95, 0.473); 
     margin-top: 10px;
 }
 td{
     color: white;
 }
 footer {
-    width: 90vw;
+    width: auto;
     background: black;
     padding: 2rem;
   }
