@@ -9,7 +9,7 @@ header {
 }
 
 .backgroundImg {
-    width: 98vw;
+    width: 99vw;
     height: 100vh;
     position: absolute;
     z-index: -1;
@@ -33,12 +33,31 @@ li a{
     font-size: 26px;
     padding: 2vw;
 }
+#review{
+    font-size: 20px;
+    background-color: rgb(135, 77, 153);
+    color: white;
+    text-decoration: none;
+    position: relative;
+    left: 70vw;
+    bottom: 50vh;
+    padding: 4%;
+}
 p{
     color: white;
 }
 table{
-        margin-top: 10px;
-    }
+    background-color: rgb(89, 30, 107); 
+    margin-top: 10px;
+}
 td{
     color: white;
 }
+footer {
+    width: 90vw;
+    background: black;
+    padding: 2rem;
+  }
+  p{
+  color:#fdbfff;
+  }
