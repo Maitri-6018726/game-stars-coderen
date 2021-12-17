@@ -4,12 +4,17 @@ body {
     margin: 0;
     padding: 0;
 }
+body {
+    background-size: cover;
+      background-image: url(https://images2.alphacoders.com/101/thumb-1920-1012090.jpg);
+      background-color: #cccccc;
+}
 header {
     padding-top: 10rem;
 }
 
 .backgroundImg {
-    width: 99vw;
+    width: 100vw;
     height: 100vh;
     position: absolute;
     z-index: -1;
@@ -32,6 +37,9 @@ li a{
     text-decoration: none;
     font-size: 26px;
     padding: 2vw;
+}
+.active{
+    text-decoration: underline;
 }
 #review{
     font-size: 20px;
