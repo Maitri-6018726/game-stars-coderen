@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-body {
+*{
     margin: 0;
     padding: 0;
 }
@@ -9,11 +9,11 @@ body {
       background-image: url(https://images2.alphacoders.com/101/thumb-1920-1012090.jpg);
       background-color: #cccccc;
 }
-header {
+header{
     padding-top: 10rem;
 }
 
-.backgroundImg {
+.backgroundImg{
     width: 100vw;
     height: 100vh;
     position: absolute;
