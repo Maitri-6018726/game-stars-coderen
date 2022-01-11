@@ -9,6 +9,8 @@ body {
       background-image: url(https://images2.alphacoders.com/101/thumb-1920-1012090.jpg);
       background-color: #cccccc;
 }
+
+@media screen and (min-width: 769px){
 header {
     padding-top: 10rem;
 }
@@ -50,3 +52,4 @@ footer {
   p{
   color:#fdbfff;
   }
+}
