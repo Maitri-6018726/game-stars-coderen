@@ -1,6 +1,10 @@
 @charset "utf-8";
 
-body {
+@media screen and (max-width: 768.9){
+    
+}
+@media screen and (min-width: 769px){
+*{
     margin: 0;
     padding: 0;
 }
@@ -9,8 +13,6 @@ body {
       background-image: url(https://images2.alphacoders.com/101/thumb-1920-1012090.jpg);
       background-color: #cccccc;
 }
-
-@media screen and (min-width: 769px){
 header {
     padding-top: 10rem;
 }
