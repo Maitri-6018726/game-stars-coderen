@@ -1,5 +1,84 @@
 @charset "utf-8";
 
+@media screen and (max-width: 767.9px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body {
+        background-size: cover;
+          background-image: url(https://images2.alphacoders.com/101/thumb-1920-1012090.jpg);
+          background-repeat: no-repeat;
+          background-color: #cccccc;
+    }
+    header{
+        padding-top: 7rem;
+    }
+    .backgroundImg{
+        width: 101vw;
+        height: 100vh;
+        position: absolute;
+        z-index: -1;
+        filter: brightness(20%);
+      }
+       ul{
+        list-style: none;
+        position: absolute;
+        left: 1rem;
+        top: 6px;
+    }
+    li{
+        float: left;
+        padding: 1vw;
+        margin: 1vw;
+        margin-right: 1vw;
+    }
+    li a{
+        color: #fdbfff;
+        text-decoration: none;
+        font-size: 18px;
+        padding: 2vw;
+    }
+    .active{
+        text-decoration: underline;
+    }
+    #review{
+        font-size: 15px;
+        background-color: rgba(172, 50, 209, 0.473); 
+        color: white;
+        text-decoration: none;
+        position: relative;
+        left: 69vw;
+        bottom: 60vh;
+        padding: 4%;
+    }
+    #upcoming{
+        margin-top: 10px;
+    }
+    p{
+        color: white;
+    }
+    table{
+        background-color: rgba(95, 95, 95, 0.473); 
+        height: 15vh;
+    }
+    td{
+        color: white;
+        padding: 2px;
+    }
+    .overbodig{
+        display: none;
+    }
+    footer {
+        width: auto;
+        background: black;
+        padding: 2rem;
+      }
+      p{
+      color:#fdbfff;
+      }
+}
+@media screen and (min-width: 768px){
 *{
     margin: 0;
     padding: 0;
@@ -7,10 +86,9 @@
 body {
     background-size: cover;
       background-image: url(https://images2.alphacoders.com/101/thumb-1920-1012090.jpg);
+      background-repeat: no-repeat;
       background-color: #cccccc;
 }
-
-@media screen and (min-width: 769px){
 header{
     padding-top: 10rem;
 }
@@ -43,12 +121,12 @@ li a{
     text-decoration: underline;
 }
 #review{
-    font-size: 20px;
+    font-size: 25px;
     background-color: rgba(172, 50, 209, 0.473); 
     color: white;
     text-decoration: none;
     position: relative;
-    left: 70vw;
+    left: 75vw;
     bottom: 50vh;
     padding: 4%;
 }
@@ -61,6 +139,9 @@ table{
 }
 td{
     color: white;
+}
+.overbodig{
+    display: block;
 }
 footer {
     width: auto;
