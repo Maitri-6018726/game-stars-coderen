@@ -44,7 +44,12 @@ li a{
 .active{
     text-decoration: underline;
 }
-
+h2{
+    color: white;
+}
+form{
+    color: white;
+}
 footer {
     width: auto;
     background: black;
