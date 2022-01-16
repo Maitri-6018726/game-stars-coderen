@@ -1,9 +1,9 @@
 @charset "utf-8";
 
-@media screen and (max-width: 768.9){
+@media screen and (max-width: 767.9){
     
 }
-@media screen and (min-width: 769px){
+@media screen and (min-width: 768px){
 *{
     margin: 0;
     padding: 0;
@@ -11,12 +11,13 @@
 body {
     background-size: cover;
       background-image: url(https://images2.alphacoders.com/101/thumb-1920-1012090.jpg);
+      background-repeat: no-repeat;
       background-color: #cccccc;
 }
 header {
     padding-top: 10rem;
 }
-.backgroundImg {
+.backgroundImg{
     width: 100vw;
     height: 100vh;
     position: absolute;
@@ -46,9 +47,17 @@ li a{
 }
 h2{
     color: white;
+    margin-bottom: 20px;
 }
 form{
     color: white;
+}
+#stemmen{
+    width: 20vw;
+}
+#Review{
+    width: 25vw;
+    height: 50px;
 }
 footer {
     width: auto;

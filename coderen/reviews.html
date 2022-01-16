@@ -25,7 +25,7 @@
 </nav>
     </header>
     <h2>Rating games</h2>
-    <form action="reviews.html">
+    <form action="reviews.html" id="rating">
         <label for="Voornaam">Voornaam:</label><br>
         <input type="text" id="Voornaam" name="Voornaam"><br>
 
@@ -33,7 +33,7 @@
         <input type="text" id="Achternaam" name="Achternaam"><br>
 
         <label for="E-mail">E-mail:</label><br>
-        <input type="text" id="E-mail" name="E-mail"><br>
+        <input type="email" id="E-mail" name="E-mail"><br>
 
         <label for="Datum review">Datum review:</label><br>
         <input type="date" id="Datum review" name="Datum review"><br>
@@ -42,7 +42,7 @@
     
     <h2>Op welke game wil je stemmen?</h2>
 <form action="reviews.html">
-    <select name="Op welke game wil je stemmen?" id="">
+    <select name="Op welke game wil je stemmen?" id="stemmen">
         <option value="The witcher |||:Wild Hunt">The witcher |||:Wild Hunt</option> 
         <option value="Grand Theft Auto V">Grand Theft Auto V</option> 
         <option value="The Elder Scrolls V: Skyrim">The Elder Scrolls V: Skyrim</option>
@@ -89,8 +89,20 @@
 </form>
 
 <form action="reviews.html">
-    <label for="fname">Review</label><br>
-    <input type="text" id="Review" name="Review"><br>
+    <label for="">Review</label><br>
+    <input type="text" id="Review" name="Review" placeholder="Jouw mening..."><br>
+</form>
+
+<form action="reviews.html">
+    <input type="checkbox" id="akkoord" name="akkoord" value="">
+    <label for="">Ik ga ermee akkoord dat mijn gegevens en review verwerkt worden op de website.</label><br>
+
+    <input type="checkbox" id="nieuwsbrief" name="nieuwsbrief" value="Opgeven voor de nieuwsbrief">
+    <label for="">Ik wil mij graag opgeven voor de nieuwsbrief.</label><br>
+</form>
+
+<form>
+    <input type="submit" value="Submit">
 </form>
 </body>
  
