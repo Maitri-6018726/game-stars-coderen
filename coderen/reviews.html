@@ -25,8 +25,9 @@
 </ul>
 </nav>
     </header>
-    <h2>Rating games</h2>
+
     <form action="reviews.html" id="rating">
+        <h2>Rating games</h2>
         <label for="Voornaam">Voornaam:</label><br>
         <input type="text" id="rating" name="Voornaam"><br>
 
@@ -37,7 +38,7 @@
         <input type="email" id="rating" name="E-mail"><br>
 
         <label for="Datum review">Datum review:</label><br>
-        <input type="date" id="Datum review" name="Datum review"><br>
+        <input type="date" id="datum" name="Datum review"><br>
     </form>
 
     
@@ -57,40 +58,40 @@
 </form><br>
 
 <h2>Welk cijfer wil je geven?</h2>
-<form action="reviews.html">
-    <input type="radio" id="1" name="cijfer" value="1">
-    <label for="1">1</label>
+<form action="reviews.html" id="cijfer">
+    <input type="radio" id="cijfer" name="cijfer" value="1">
+    <label for="cijfer">1</label>
 
-    <input type="radio" id="2" name="cijfer" value="CSS">
-    <label for="2">2</label>
+    <input type="radio" id="cijfer" name="cijfer" value="2">
+    <label for="cijfer">2</label>
 
-    <input type="radio" id="3" name="cijfer" value="3">
-    <label for="3">3</label>
+    <input type="radio" id="cijfer" name="cijfer" value="3">
+    <label for="cijfer">3</label>
 
-    <input type="radio" id="4" name="cijfer" value="4">
-    <label for="4">4</label>
+    <input type="radio" id="cijfer" name="cijfer" value="4">
+    <label for="cijfer">4</label>
 
-    <input type="radio" id="5" name="cijfer" value="5">
-    <label for="5">5</label>
+    <input type="radio" id="cijfer" name="cijfer" value="5">
+    <label for="cijfer">5</label>
 
-    <input type="radio" id="6" name="cijfer" value="6">
-    <label for="6">6</label>
+    <input type="radio" id="cijfer" name="cijfer" value="6">
+    <label for="cijfer">6</label>
 
-    <input type="radio" id="7" name="cijfer" value="7">
-    <label for="7">7</label>
+    <input type="radio" id="cijfer" name="cijfer" value="7">
+    <label for="cijfer">7</label>
 
-    <input type="radio" id="8" name="cijfer" value="8">
-    <label for="8">8</label>
+    <input type="radio" id="cijfer" name="cijfer" value="8">
+    <label for="cijfer">8</label>
 
-    <input type="radio" id="9" name="cijfer" value="9">
-    <label for="9">9</label>
+    <input type="radio" id="cijfer" name="cijfer" value="9">
+    <label for="cijfer">9</label>
 
-    <input type="radio" id="10" name="cijfer" value="10">
-    <label for="10">10</label>
+    <input type="radio" id="cijfer" name="cijfer" value="10">
+    <label for="cijfer">10</label>
 </form>
 
-<form action="reviews.html">
-    <label for="">Review</label><br>
+<form action="reviews.html" id="review">
+    <label for="review">Review</label><br>
     <input type="text" id="review" name="review" placeholder="Jouw mening..."><br>
 </form>
 
@@ -103,7 +104,7 @@
 </form>
 
 <form>
-    <input type="submit" value="Submit">
+    <input type="submit" value="Submit" id="submit">
 </form>
 <footer>
     <p>@Copyright</p>
