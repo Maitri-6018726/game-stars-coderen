@@ -171,17 +171,13 @@
     padding: 0;
 }
 body{
-    background-size: cover;
-      background-image: url(https://images2.alphacoders.com/101/thumb-1920-1012090.jpg);
-      background-repeat: no-repeat;
-      background-color: #cccccc;
+    height: 115vh;
 }
 header{
     padding-top: 10rem;
 }
 .backgroundImg{
-    width: 98vw;
-    height: 100vh;
+    width: 100%;
     position: absolute;
     z-index: -1;
     filter: brightness(20%);
@@ -207,12 +203,52 @@ li a{
 .active{
     text-decoration: underline;
 }
+#review-1{
+    width: 45vw;
+    border-width: 2px;
+    border: solid rgba(165, 165, 165, 0.596);
+    background-color: white;
+    color: grey;
+    position: relative;
+    left: 20vw;
+    top: 20px;
+}
+#review-2{
+    width: 50vw;
+    border-width: 2px;
+    border: solid rgba(165, 165, 165, 0.596);
+    background-color: white;
+    color: grey;
+    position: relative;
+    left: 45vw;
+    top: 60px;
+}
+#review-3{
+    width: 50vw;
+    border-width: 2px;
+    border: solid rgba(165, 165, 165, 0.596);
+    background-color: white;
+    color: grey;
+    position: relative;
+    left: 42vw;
+    top: 90px;
+}
 h2{
     color: white;
     margin-bottom: 20px;
+    margin-left: 2vw;
+    position: relative;
+    bottom: 25vw;
 }
 form{
     color: white;
+    margin-left: 2vw;
+    position: relative;
+    bottom: 25vw;
+}
+#rating{
+    margin-left: 0vw;
+    margin-bottom: 1rem;
 }
 #stemmen{
     width: 20vw;
@@ -224,10 +260,16 @@ form{
 #akkoord{
     margin-top: 2vw;
 }
+#submit{
+    width: 5rem;
+}
 footer {
     width: auto;
     background: black;
     padding: 2rem;
+    position: relative;
+    bottom: 50vh;
+
   }
   p{
   color:#fdbfff;
