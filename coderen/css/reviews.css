@@ -102,12 +102,6 @@
         margin: 0;
         padding: 0;
     }
-    body{
-        background-size: cover;
-        background-image: url(https://images2.alphacoders.com/101/thumb-1920-1012090.jpg);
-        background-repeat: no-repeat;
-        background-color: #cccccc;
-    }
     header{
         padding-top: 7rem;
     }
@@ -139,12 +133,23 @@
     .active{
         text-decoration: underline;
     }
+    #review-1{
+        display: none;
+    }
+    #review-2{
+        display: none;
+    }
+    #review-3{
+        display: none;
+    }
     h2{
         color: white;
         margin-bottom: 20px;
+        margin-left: 2vw;
     }
     form{
         color: white;
+        margin-left: 2vw;
     }
     #rating{
         width: 40vw;
@@ -155,6 +160,12 @@
     #review{
         width: 40vw;
         height: 60px;
+    }
+    #akkoord{
+        margin-top: 4vw;
+    }
+    #submit{
+        width: 4rem;
     }
     footer {
         width: auto;
