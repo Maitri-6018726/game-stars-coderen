@@ -84,22 +84,22 @@
         margin: 0;
         padding: 0;
     }
-    body {
+    body{
         background-size: cover;
-          background-image: url(https://images2.alphacoders.com/101/thumb-1920-1012090.jpg);
-          background-repeat: no-repeat;
-          background-color: #cccccc;
+        background-image: url(https://images2.alphacoders.com/101/thumb-1920-1012090.jpg);
+        background-repeat: no-repeat;
+        background-color: #cccccc;
     }
     header{
-        padding-top: 7rem;
+        padding-top: 4rem;
     }
     .backgroundImg{
-        width: 101vw;
+        width: 100vw;
         height: 100vh;
         position: absolute;
         z-index: -1;
         filter: brightness(20%);
-      }
+    }
        ul{
         list-style: none;
         position: absolute;
@@ -115,8 +115,8 @@
     li a{
         color: #fdbfff;
         text-decoration: none;
-        font-size: 18px;
-        padding: 2vw;
+        font-size: 15px;
+        padding: 1vw;
     }
     .active{
         text-decoration: underline;
@@ -126,10 +126,7 @@
         background-color: rgba(172, 50, 209, 0.473); 
         color: white;
         text-decoration: none;
-        position: relative;
-        left: 69vw;
-        bottom: 60vh;
-        padding: 4%;
+        padding: 3%;
     }
     #upcoming{
         margin-top: 10px;
@@ -139,20 +136,19 @@
     }
     table{
         background-color: rgba(95, 95, 95, 0.473); 
-        height: 15vh;
+        height: 10vh;
     }
     td{
         color: white;
-        padding: 2px;
+        padding: 1px;
     }
     .overbodig{
         display: none;
     }
     footer {
-        width: auto;
         background: black;
-        padding: 2rem;
-      }
+        padding: 1%;
+    }
       p{
       color:#fdbfff;
       }
@@ -164,7 +160,6 @@
 }
 body {
     background-size: cover;
-      background-image: url(https://images2.alphacoders.com/101/thumb-1920-1012090.jpg);
       background-repeat: no-repeat;
       background-color: #cccccc;
 }
