@@ -5,12 +5,6 @@
         margin: 0;
         padding: 0;
     }
-    body{
-        background-size: cover;
-        background-image: url(https://images2.alphacoders.com/101/thumb-1920-1012090.jpg);
-        background-repeat: no-repeat;
-        background-color: #cccccc;
-    }
     header{
         height: auto;
         padding-top: 7rem;
@@ -43,6 +37,15 @@
     .active{
         text-decoration: underline;
     }
+    #review-1{
+        display: none;
+    }
+    #review-2{
+        display: none;
+    }
+    #review-3{
+        display: none;
+    }
     h2{
         color: white;
         margin-bottom: 20px;
@@ -52,19 +55,31 @@
         color: white;
     }
     #rating{
-        margin-left: 30vw;
+        margin-left: 40vw;
     }
-    #rating h2{
-        margin-left: 10vw;
+    #voornaam{
+        margin-left: 45vw;
     }
-    #rating input{
-        margin-left: 6vw;
+    #voornaam-input{
+        margin-left: 35vw;
     }
-    #rating label{
-        margin-left: 15vw;
+    #achternaam{
+        margin-left: 45vw;
+    }
+    #achternaam-input{
+        margin-left: 35vw;
+    }
+    #email{
+        margin-left: 45vw;
+    }
+    #email-input{
+        margin-left: 35vw;
     }
     #datum{
-        width: 34vw;
+        margin-left: 45vw;
+    }
+    #datum-input{
+        margin-left: 40vw;
     }
     #stemmen{
         width: 50vw;
@@ -89,7 +104,7 @@
         margin-left: 35vw;
     }
     footer {
-        width: auto;
+        width: 92vw;
         background: black;
         padding: 2rem;
     }
