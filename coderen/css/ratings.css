@@ -49,8 +49,7 @@
         color: white;
         text-decoration: none;
         position: relative;
-        left: 60vw;
-        bottom: 80vh;
+        top: 2rem;
         padding: 4%;
     }
     #upcoming{
@@ -62,6 +61,7 @@
     table{
         background-color: rgba(95, 95, 95, 0.473); 
         height: 15vh;
+        margin-left: 1vw;
     }
     td{
         color: white;
@@ -71,12 +71,30 @@
         display: none;
     }
     footer {
-        width: auto;
+        text-decoration: none;
+        padding: 1%;
         background: black;
-        padding: 2rem;
-      }
+    }
+    .copyright{
+        position: relative;
+        top: 8rem;
+        right: 1rem;
+        margin-left: 60vw;
+    }
+    #contacten{
+        position: relative;
+        bottom: 3rem;
+        color: #fdbfff;
+    }
+    a{
+        color: #fdbfff;
+    }
+    #contacten p{
+        margin-left: 0vw;
+    }
       p{
-      color:#fdbfff;
+        margin-left: 1vw;
+        color:#fdbfff;
       }
 }
 @media screen and (min-width: 480px) and (max-width: 767.9px){
