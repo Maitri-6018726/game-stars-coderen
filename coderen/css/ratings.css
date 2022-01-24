@@ -207,6 +207,7 @@ li a{
 table{
     background-color: rgba(95, 95, 95, 0.473); 
     margin-top: 10px;
+    margin-left: 1vw;
 }
 td{
     color: white;
@@ -215,11 +216,29 @@ td{
     display: block;
 }
 footer {
-    width: auto;
+    padding: 1%;
     background: black;
-    padding: 2rem;
-  }
+}
+.copyright{
+    position: relative;
+    top: 4rem;
+    left: 1rem;
+    margin-left: 60vw;
+}
+#contacten{
+    position: relative;
+    bottom: 3rem;
+    color: #fdbfff;
+}
+a{
+    text-decoration: none;
+    color: #fdbfff;
+}
+#contacten p{
+    margin-left: 0vw;
+}
   p{
-  color:#fdbfff;
+    margin-left: 1vw;
+    color:#fdbfff;
   }
 }
