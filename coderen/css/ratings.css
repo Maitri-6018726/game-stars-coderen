@@ -126,6 +126,8 @@
         background-color: rgba(172, 50, 209, 0.473); 
         color: white;
         text-decoration: none;
+        position: relative;
+        top: 2rem;
         padding: 3%;
     }
     #upcoming{
@@ -146,11 +148,31 @@
         display: none;
     }
     footer {
+        margin-top: 5rem;
         background: black;
-        padding: 1%;
+        text-decoration: none;
+    }
+    .copyright{
+        position: relative;
+        top: 4rem;
+        left: 1rem;
+        margin-left: 60vw;
+    }
+    #contacten{
+        position: relative;
+        bottom: 3rem;
+        color: #fdbfff;
+    }
+    a{
+        
+        color: #fdbfff;
+    }
+    #contacten p{
+        margin-left: 0vw;
     }
       p{
-      color:#fdbfff;
+        margin-left: 1vw;
+        color:#fdbfff;
       }
 }
 @media screen and (min-width: 768px){
@@ -216,6 +238,7 @@ td{
     display: block;
 }
 footer {
+    text-decoration: none;
     padding: 1%;
     background: black;
 }
@@ -231,7 +254,6 @@ footer {
     color: #fdbfff;
 }
 a{
-    text-decoration: none;
     color: #fdbfff;
 }
 #contacten p{
